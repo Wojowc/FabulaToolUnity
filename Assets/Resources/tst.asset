@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a5287ce483b4cc4499fd0d9e266a284, type: 3}
+  m_Name: tst
+  m_EditorClassIdentifier: 
+  nodeData:
+  - GUID: 06b5b329-52b2-4918-8a6d-0ad92db71542
+    nodeText: Node
+    position: {x: 255.2, y: 112.8}
+  - GUID: dd73d1af-0fd9-48e4-99f6-8e78f6a607b7
+    nodeText: Node
+    position: {x: 476, y: 100}
+  nodeLinkData:
+  - baseNodeGUID: a0e90d46-0fd3-455d-a852-7dc41d03f509
+    portName: Next
+    targetNodeGUID: 06b5b329-52b2-4918-8a6d-0ad92db71542
+  - baseNodeGUID: 06b5b329-52b2-4918-8a6d-0ad92db71542
+    portName: Option 1
+    targetNodeGUID: dd73d1af-0fd9-48e4-99f6-8e78f6a607b7

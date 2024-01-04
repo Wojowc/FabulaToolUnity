@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a12073d4d5b62d40bf9f9d5c9c99cc1, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  actionName: wait
+  extendedRequirements: 0
+  cost: 1
+  duration: 0
+  retries: 0
+  actor: {fileID: 0}
+  target: {fileID: 0}
+  preconditions: []
+  effects:
+  - {fileID: 11400000, guid: 8d8874f529985b349934b8ce42f14048, type: 2}
+  running: 0

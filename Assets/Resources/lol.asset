@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a5287ce483b4cc4499fd0d9e266a284, type: 3}
+  m_Name: lol
+  m_EditorClassIdentifier: 
+  nodeData:
+  - GUID: 7098847b-1550-4045-b6b7-0350ad1e50dd
+    nodeText: LOL
+    position: {x: 653.6, y: 240.8}
+  - GUID: 5fcf2bcc-d12f-4bb2-8b2e-2644089f0f55
+    nodeText: LOL
+    position: {x: 305.6, y: 128.8}
+  nodeLinkData:
+  - baseNodeGUID: 29e5761c-9d66-49c9-a89a-08264c4c34cf
+    portName: Next
+    targetNodeGUID: 5fcf2bcc-d12f-4bb2-8b2e-2644089f0f55
+  - baseNodeGUID: 5fcf2bcc-d12f-4bb2-8b2e-2644089f0f55
+    portName: Option 1
+    targetNodeGUID: 7098847b-1550-4045-b6b7-0350ad1e50dd
+  exposedProperties:
+  - name: Name
+    value: val
+  - name: Name'
+    value: val
+  - name: Name''
+    value: val

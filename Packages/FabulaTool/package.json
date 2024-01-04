@@ -1,0 +1,21 @@
+{
+  "name": "com.owczarek.fabulatool",
+  "version": "1.0.0",
+  "displayName": "FabulaTool",
+  "description": "A package ",
+  "unity": "2022.3",
+  "unityRelease": "0a11",
+  "dependencies": {
+      "com.unity.textmeshpro": "3.0.6"
+ },
+ "keywords": [
+    "Narrative",
+    "Generation",
+    "Fabula Tool",
+    "FTU"
+  ],
+  "author": {
+    "name": "Wojciech Owczarek",
+    "email": "wojcowc675@student.polsl.pl"
+  }
+}

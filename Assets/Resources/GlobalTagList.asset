@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603de6cdb5786b442b708222ebc7a564, type: 3}
+  m_Name: GlobalTagList
+  m_EditorClassIdentifier: 
+  tags:
+  - name: Weapon
+    parents:
+    - Item
+    variables:
+      boolVariables: []
+      intVariables:
+      - key: Damage
+        value: 5
+      floatVariables: []
+      stringVariables: []
+  - name: Sword
+    parents:
+    - Weapon
+    variables:
+      boolVariables: []
+      intVariables: []
+      floatVariables: []
+      stringVariables: []
+  - name: Mace
+    parents:
+    - Weapon
+    variables:
+      boolVariables: []
+      intVariables: []
+      floatVariables: []
+      stringVariables: []
+  - name: Item
+    parents:
+    - Physical
+    variables:
+      boolVariables:
+      - key: Wearable
+        value: 0
+      intVariables: []
+      floatVariables:
+      - key: Value
+        value: 5
+      stringVariables: []
+  - name: Human
+    parents:
+    - Living
+    variables:
+      boolVariables: []
+      intVariables: []
+      floatVariables: []
+      stringVariables: []
+  - name: Living
+    parents:
+    - Physical
+    variables:
+      boolVariables:
+      - key: Dead
+        value: 0
+      intVariables:
+      - key: HP
+        value: 5
+      floatVariables: []
+      stringVariables: []
+  - name: Physical
+    parents: []
+    variables:
+      boolVariables: []
+      intVariables: []
+      floatVariables:
+      - key: Weight
+        value: 10
+      stringVariables: []

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51dd36940c5977f4e81b2c8f35758772, type: 3}
+  m_Name: atLake
+  m_EditorClassIdentifier: 
+  targetType: {fileID: 0}
+  target: {fileID: 0}
+  destroyOnInitialize: 0
+  targetSelf: 0
+  requiredTypes: 
+  prohibitedTypes: 
+  requiredTags: []
+  prohibitedTags: []
+  boolExpressions: []
+  intExpressions: []
+  floatExpressions: []
+  stringExpressions:
+  - variableName: Location
+    sign: 0
+    argument: Lake

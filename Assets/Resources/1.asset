@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a5287ce483b4cc4499fd0d9e266a284, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  nodeData:
+  - GUID: b1a77027-05cf-4e07-9367-47fbe33d5391
+    nodeText: Attenzion
+    position: {x: 254.4, y: 161.59999}
+  nodeLinkData:
+  - baseNodeGUID: 8cdbbe2e-8f57-4a17-973c-e9246699dcd6
+    portName: Next
+    targetNodeGUID: b1a77027-05cf-4e07-9367-47fbe33d5391

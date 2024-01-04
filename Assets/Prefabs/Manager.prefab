@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4783670377740161452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 914893650331409688}
+  - component: {fileID: 2408314499936745335}
+  - component: {fileID: 4205698137489233186}
+  - component: {fileID: 2077969095765572672}
+  - component: {fileID: 2511371444570312555}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &914893650331409688
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4783670377740161452}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.2097069, y: -3.4145894, z: 4.748511}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2408314499936745335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4783670377740161452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24c8e997e22833244812b8ad82f6d549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allAgents: []
+  allEntities: []
+  toBeDestroyedNextTurn: []
+--- !u!114 &4205698137489233186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4783670377740161452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22cc5a1c9f4bb0444b62e752273a2991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  possibleActionList:
+  - action: {fileID: 11400000, guid: 30e587dd45c1214428c9b9fd9c81c8a1, type: 2}
+    selfOnly: 1
+    agentRequirements:
+    - groupName: Character
+      treatAsOr: 0
+      groupedRequirements:
+      - {fileID: 11400000, guid: 37f09dfbfd1d4924b88f6f11b0d64b94, type: 2}
+      destroyOnInitialize: 0
+    targetRequirements: []
+  - action: {fileID: 11400000, guid: e5116d5dd0f8a7344b76a112e3169bcb, type: 2}
+    selfOnly: 0
+    agentRequirements:
+    - groupName: Character
+      treatAsOr: 0
+      groupedRequirements:
+      - {fileID: 11400000, guid: 37f09dfbfd1d4924b88f6f11b0d64b94, type: 2}
+      destroyOnInitialize: 0
+    targetRequirements:
+    - groupName: Character
+      treatAsOr: 0
+      groupedRequirements:
+      - {fileID: 11400000, guid: 37f09dfbfd1d4924b88f6f11b0d64b94, type: 2}
+      destroyOnInitialize: 0
+  - action: {fileID: 11400000, guid: c65b8b9090014804db554ae00d86226b, type: 2}
+    selfOnly: 0
+    agentRequirements:
+    - groupName: Character
+      treatAsOr: 0
+      groupedRequirements:
+      - {fileID: 11400000, guid: 37f09dfbfd1d4924b88f6f11b0d64b94, type: 2}
+      destroyOnInitialize: 0
+    targetRequirements:
+    - groupName: Location
+      treatAsOr: 0
+      groupedRequirements:
+      - {fileID: 11400000, guid: 63d65057d6da7b64d8c7378a1e51902e, type: 2}
+      destroyOnInitialize: 0
+  allActions: []
+--- !u!114 &2077969095765572672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4783670377740161452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8219d8d688b115242ac1c36cc1bd0a74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  realTime: 1
+  currentTurn: 0
+  turnLength: 3
+--- !u!114 &2511371444570312555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4783670377740161452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e514cec52732abf44a45133a1b44a395, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storyNodes:
+  - nodeName: Marry go to woods
+    activationTurn: 3
+    target: {fileID: 0}
+    requirements: []
+    modifiers: []
+    newGoals:
+    - name: Go To Woods
+      weight: 1
+      storyGoal: 1
+      doRemove: 1
+      requirementsToAccomplish:
+      - preciseTarget: {fileID: 0}
+        looseTarget: {fileID: 0}
+        requirement: {fileID: 11400000, guid: 66852b7df59af77469619a9a49bd6953, type: 2}
+        targetSelf: 0
+      steps: []
+    newCyclicModifiers: []

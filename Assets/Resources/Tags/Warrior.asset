@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b85d2fea9d89da047a90737b1d6a6cbb, type: 3}
+  m_Name: Warrior
+  m_EditorClassIdentifier: 
+  parents:
+  - {fileID: 11400000, guid: 11d75472206a96b459f2ded7d81b3171, type: 2}
+  variables:
+    boolVariables:
+    - key: EnemyDead
+      value: 0
+    intVariables:
+    - key: Enemy HP
+      value: 0
+    floatVariables: []
+    stringVariables:
+    - key: Enemy
+      value: none
